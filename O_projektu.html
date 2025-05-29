@@ -4,73 +4,86 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aboreto&family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aboreto&family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
     <script type="module" src="script.js"></script>
     <title>O Shelfie</title>
   </head>
   <body>
     <!-- This is header -->
     <header class="header">
-      <h1>Nadpis</h1>
-      <nav class="nav">
-        <a href="O_projektu.html">Domů</a>
-        <a href="O_Lucii.html">O Lucii</a>
-        <a href="O_Ivane.html">O Ivaně</a>
-      </nav>
+      <div class="header-menu">
+        <img class="logo" src="images/logo.png" alt="logo" />
+        <div class="hamburger-menu">
+          <img src="images/Hamburger.png" alt="hamburger-menu" />
+        </div>
+        <nav class="nav">
+          <a href="O_projektu.html">Domů</a>
+          <a href="O_Lucii.html">O Lucii</a>
+          <a href="O_Ivane.html">O Ivaně</a>
+        </nav>
+      </div>
+      <div class="header-image"></div>
     </header>
-    <div class="header-image"></div>
     <!-- This is main -->
     <main class="main">
-      <section class="left">
-        <h3>Vize</h3>
+      <section class="section">
+        <h2>Vize</h2>
         <div class="main-div">
-          <img class="image" src="images/photo.jpg" alt="fotka" />
+          <img class="image" src="images/Home page.png" alt="wireframe" />
           <div class="article-div">
-            Přibývající hromady knih v nejrůznějších formátech nás přivedly k
-            nápadu vytvořit aplikaci, která ulehčí život všem milovníkům čtení.
-            Podobné nástroje už existují, ale my míříme na český a slovenský trh
-            s důrazem na jednoduché a přehledné rozhraní. Náš systém umožní
-            zaznamenat si vlastní sbírku, jednotlivé tituly snadno doplňovat,
-            měnit i odebírat. Nechybí možnost třídění podle autora, žánru či
-            názvu. Uživatel si tak snadno udrží přehled o tom, co už přečetl a
-            co ho teprve čeká. Rády bychom umožnily i práci s ISBN a propojení s
-            online antikvariáty.
+            Přibývající hromady knih v nejrůznějších formátech nás přivedly k nápadu vytvořit
+            aplikaci, která ulehčí život všem milovníkům čtení. Podobné nástroje už existují, ale my
+            míříme na český a slovenský trh s důrazem na jednoduché a přehledné rozhraní. Náš systém
+            umožní zaznamenat si vlastní sbírku, jednotlivé tituly snadno doplňovat, měnit i
+            odebírat. Nechybí možnost třídění podle autora, žánru či názvu. Uživatel si tak snadno
+            udrží přehled o tom, co už přečetl a co ho teprve čeká. Rády bychom umožnily i práci s
+            ISBN a propojení s online antikvariáty.
           </div>
         </div>
       </section>
-      <section class="right">
-        <h3>Nadpis sekce</h3>
-        <div class="main-div">
-        <img class="image" src="images/photo.jpg" alt="fotka" />
-        <div class="article-div">
-          Aplikace Shelfie slouží k tvorbě a správě vlastní virtuální sbírky
-          knih. Po spuštění se zobrazí úvodní obrazovka s logem a animací, která
-          poběží během načítání dat z API. Následuje hlavní stránka , kde
-          uživatel vidí svou knihovnu. Knihy budou vizuálně znázorněny jako
-          barevné bloky s názvem a autorem. Každá kniha má vlastní stránku s
-          detaily, kde ji lze upravit nebo smazat. Design bude jednoduchý a
-          uživatelsky přívětivý.
-        </div>
+      <section class="section middle">
+        <h2>Nadpis sekce</h2>
+        <div class="main-div right">
+          <img class="image" src="images/Loading Page.png" alt="Loading page" />
+          <div class="article-div">
+            Aplikace Shelfie slouží k tvorbě a správě vlastní virtuální sbírky knih. Po spuštění se
+            zobrazí úvodní obrazovka s logem a animací, která poběží během načítání dat z API.
+            Následuje hlavní stránka , kde uživatel vidí svou knihovnu. Knihy budou vizuálně
+            znázorněny jako barevné bloky s názvem a autorem. Každá kniha má vlastní stránku s
+            detaily, kde ji lze upravit nebo smazat. Design bude jednoduchý a uživatelsky přívětivý.
+          </div>
         </div>
       </section>
-      <section class="left">
-        <h3>Nadpis sekce</h3>
+      <section class="section">
+        <h2>Nadpis sekce</h2>
         <div class="main-div">
-        <img class="image" src="images/photo.jpg" alt="fotka" />
-        <div class="article-div">
-          Do budoucna plánujeme aplikaci rozšířit o automatické doplňování dat z
-          veřejných databází, možnost importu a exportu knihovny, propojení s
-          online antikvariáty, přehledy a statistiky čtení, wishlist a evidenci
-          půjček. Přibude podpora více knihoven, uživatelské účty se
-          synchronizací dat a pokročilé vyhledávání a filtrování. Cílem je
-          vytvořit plnohodnotný nástroj pro správu osobní sbírky knih.
-        </div>
+          <img class="image" src="images/Add book page.png" alt="Add book page" />
+          <div class="article-div">
+            Do budoucna plánujeme aplikaci rozšířit o automatické doplňování dat z veřejných
+            databází, možnost importu a exportu knihovny, propojení s online antikvariáty, přehledy
+            a statistiky čtení, wishlist a evidenci půjček. Přibude podpora více knihoven,
+            uživatelské účty se synchronizací dat a pokročilé vyhledávání a filtrování. Cílem je
+            vytvořit plnohodnotný nástroj pro správu osobní sbírky knih.
+          </div>
         </div>
       </section>
     </main>
     <!-- This is footer -->
     <footer class="footer">
-      <div>Copyright</div>
-      <div>Contacts</div>
+      <div>© 2025 LuciJeVa & Ivik</div>
+      <div><a href="mailto:lucie.vadkerti@gmail.com">shelfie@shelfie.cz</a></div>
     </footer>
   </body>
 </html>
