@@ -7,12 +7,12 @@
 html {
   font-family: "Montserrat", sans-serif;
   color: rgb(20, 16, 14);
-  
+
 }
 
 body {
   background-color: rgb(255, 255, 255);
-  
+
 }
 
 .header {
@@ -20,11 +20,10 @@ body {
   flex-direction: column;
 }
 
-
-
 .logo {
-  width: 7rem;
+  max-width: 7rem;
   margin: 20px;
+  cursor: pointer;
 }
 
 .header-menu {
@@ -50,6 +49,7 @@ body {
 
 .hamburger-menu {
   margin: 40px 40px 0px 0px;
+  cursor: pointer;
 }
 
 a {
@@ -80,7 +80,6 @@ a:visited {
   margin-top: 0;
   margin-right: 20vw;
   margin-left: 20vw;
-  
 }
 
 .main-div {
@@ -88,7 +87,7 @@ a:visited {
 
 }
 
-h2 {
+.subheading {
   display: inline-block;
   margin: 0 0 0 2rem;
   font-family: "Aboreto";
@@ -100,13 +99,10 @@ h2 {
 .image {
   height: 230px;
   margin: 2rem;
-
 }
 
 .article-div {
   margin: 2rem 2rem 2rem 2rem;
-
-
 }
 
 
@@ -127,17 +123,45 @@ h2 {
   height: 80px;
   align-items: center;
   background-color: #E3EFE5;
- 
 }
 
 /*about sections*/
 
-.image-profile{
+.image-profile {
+  margin-top: 4rem;
   height: 20rem;
   width: 20rem;
   border-radius: 50%;
 }
 
-.article-about{
-  margin: 0 4rem 4rem 10rem;
+.article-about {
+  margin: 4rem 4rem 4rem 4rem;
+}
+
+.section-about {
+  border: 1px solid #c59d93;
+  background-color: rgb(246, 246, 247);
+  margin: -4rem -4rem 4rem 10rem;
+
+}
+
+h2 {
+  position: relative;
+}
+
+@media screen and (max-width: 480px) {
+  .logo {
+    max-width: 5rem;
+    height: auto;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1023px) {
+  .logo {
+    max-width: 7rem;
+    min-width: 5rem;
+    height: auto;
+    display: block;
+  }
 }
