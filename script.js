@@ -10,7 +10,7 @@ const toggleNav = (e) => {
 
 const homeRedirect = (e) => {
   e.stopPropagation();
-  window.location.href = 'O_projektu.html';
+  window.location.href = 'Úvod.html';
 };
 
 hamburgerElm.addEventListener('click', toggleNav);
