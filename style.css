@@ -38,13 +38,15 @@ body {
 }
 
 .nav {
+  border: 1px solid #c59d93;
+  border-radius: 10px;
   display: none;
   position: absolute;
-  top: 70px;
-  right: 5px;
+  top: 88px;
+  right: 48px;
   background: rgb(246, 246, 247);
   padding: 1rem;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
   z-index: 10;
 }
 
@@ -55,6 +57,12 @@ body {
 .hamburger-menu {
   margin: 40px 40px 0px 0px;
   cursor: pointer;
+}
+
+.hamburger-menu img {
+  border: 1px solid rgb(185, 184, 184);
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 a {
@@ -79,6 +87,7 @@ a:visited {
   padding-bottom: 21.833%;
   margin: 0;
   display: block;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .header-image-Iv {
@@ -91,6 +100,8 @@ a:visited {
   padding-bottom: 21.833%;
   margin: 0;
   display: block;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+
 }
 
 .header-image-Lu {
@@ -103,6 +114,8 @@ a:visited {
   padding-bottom: 21.833%;
   margin: 0;
   display: block;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+
 }
 
 .main {
@@ -144,6 +157,9 @@ a:visited {
   border: 1px solid #c59d93;
   background-color: rgb(246, 246, 247);
   margin: 2rem 0 2rem 0;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+
 }
 
 .section-prev-one {
@@ -156,6 +172,9 @@ a:visited {
   border: 1px solid #c59d93;
   background-color: rgb(246, 246, 247);
   margin: 2rem 0 2rem 0;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+
 }
 
 .section-prev-two {
@@ -165,11 +184,15 @@ a:visited {
   border: 1px solid #c59d93;
   background-color: rgb(246, 246, 247);
   margin: 2rem 0 2rem 0;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+
+
 }
 
 .section-prev-two img {
   width: 24px;
-  height: 24px;
+  height: 20px;
   margin: 20px;
 }
 
@@ -183,6 +206,8 @@ a:visited {
   border: 1px solid #c59d93;
   background-color: rgb(246, 246, 247);
   margin: 2rem 0 2rem 0;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
 }
 
 .row {
@@ -231,6 +256,7 @@ a:visited {
   height: 20rem;
   width: 20rem;
   border-radius: 50%;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .article-about {
@@ -241,7 +267,8 @@ a:visited {
   border: 1px solid #c59d93;
   background-color: rgb(246, 246, 247);
   margin: -4rem -4rem 4rem 10rem;
-
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
 }
 
 h2 {
