@@ -174,7 +174,16 @@ a:visited {
   margin: 2rem 0 2rem 0;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
+  position: relative;
+}
 
+.number {
+  transform: translate(-38%, -32%);
+  top: 0;
+  left: 0;
+  position: absolute;
+  max-width: 300px;
+  height: auto;
 }
 
 .section-prev-two {
